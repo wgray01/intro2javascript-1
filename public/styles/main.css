@@ -1,0 +1,9 @@
+body { 
+    padding-bottom: 70px; 
+}
+
+footer li{
+    display: inline-block;
+    width: 14%;
+    text-align: center;
+}

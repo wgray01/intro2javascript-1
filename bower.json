@@ -1,0 +1,21 @@
+{
+  "name": "intro2javascript",
+  "description": "Introduction to JavScript WEB-7215",
+  "main": "bin/www",
+  "authors": [
+    "Alberto Botero"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/salsada/intro2javascript",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

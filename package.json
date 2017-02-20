@@ -1,0 +1,22 @@
+{
+  "name": "intro2javascript",
+  "version": "1.0.0",
+  "description": "Introduction to JavScript WEB-7215",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salsada/intro2javascript.git"
+  },
+  "author": "Alberto Botero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salsada/intro2javascript/issues"
+  },
+  "homepage": "https://github.com/salsada/intro2javascript#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
