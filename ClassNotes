@@ -1,0 +1,78 @@
+single page applications
+	- multi platform support (tablet, phone, desktop)
+	
+MEAN certificate - Mongo, E, A, Node
+
+mongoose (mapping tool to converto documents stored on mongo and displayed on client side)
+
+GIT
+NODE(js)
+BOWER
+VISUAL STUDIO - code
+
+
+TO RUN NODE ON VS CODE: 
+ctrl ~
+type:   npn init
+
+
+
+C:\Users\bc109\AppData\Local\atom\bin;C:\Users\bc109\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\bc109\AppData\Local\GitHub
+
+
+JavaScript:
+Object Oriented Programming Language
+
+ECMAScript IS JavaScript
+	ECMA-262 specification
+		Latest Release: Ed. 7 published in June 2016
+Created by Netscape in 1996 (Javascript Netscape)
+adapted by Microsoft and they called it JScript
+
+Since Netscape Navigator 2.0 and IE 3.0 JavaScript is built in.
+
+VARIABLES:
+	JavaScript is an untyped programming language.
+	All var naming conventions should be cammel case (fisrtword lower case and after that Upper Case first letter)
+	DATA TYPES: 
+		Undefined  (can only be converted into a string)
+		null
+		boolean  (is either True or False) Boolean is a comparason and has operators 
+					== is Equal to?
+					=== is equal to and the same type?
+					!=  is Difference?
+					> is greater than
+						>= greater than OR equal
+					< is less than
+						<=  less than OR equal
+					isNAN(  )  is not a number ** PUT YOUR CHECK INSIDE OF ()
+					
+					
+		number
+		string  * (most generic dataType)
+		symbol
+		object
+
+FUNCTIONS:
+	controled sctuctures (is a settping set of IF and Else statements to find out which one is correct)
+	
+	
+	
+Conditional STATEMENTS:
+	IF
+	Else
+	Switch()
+		have to set a case for arguement ** Remember to break; your cases to go to the next test.. 
+		
+LOOPS:
+			Pre-Evaluation Loops
+				could be 0 or many times
+				
+			Post-Evaluation
+				at least 1 or more times
+		
+	WILD LOOPS
+		
+
+
+	
