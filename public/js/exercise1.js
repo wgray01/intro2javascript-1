@@ -39,3 +39,21 @@ function findLargest() {
     }
 
 }
+
+function clearForm() {
+    var inputs = document.getElementsByTagName("input");
+
+    for (var i = 0; i < inputs.length; i++) {
+        var control = inputs[i];
+        control.value = '';
+    }
+
+}
+
+function checkValue(input) {
+    if (isNaN(input.value)) {
+        alert(input.value + ' is not a number Try it again!!');
+        input.value = '';
+        input.focus();
+    }
+}
