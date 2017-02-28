@@ -72,6 +72,24 @@ LOOPS:
 				at least 1 or more times
 		
 	WILD LOOPS
+
+
+
+
+ANGULAR::
+work via a MVC
+
+M - Model --> defines what is the kind of data
+V - View --> HTML with Angular Expressions
+C - Controller --> 
+
+
+MVVM patern
+
+M - Model
+V - View (partial view)
+V - View
+	M - Model
 		
 
 
