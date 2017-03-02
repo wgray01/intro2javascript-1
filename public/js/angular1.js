@@ -16,4 +16,15 @@ app.controller('recipesCtrl1', function($scope) {
         description: "How to make fried chicken",
         steps: ["Step 1", "Step 2", "Step 3"]
     };
+
+    $scope.modify = function() {
+        $.ajax({
+                method: "POST",
+                url: "angular1.html",
+                data: $scope.reicpe
+            })
+            .done(function(msg) {
+                alert("Data Saved: " + msg);
+            });
+    }
 });
