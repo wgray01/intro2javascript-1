@@ -11,9 +11,9 @@
 
 </head>
 
-<body ng-app="app">
-    <header class="page-header" ng-controller="headCtrl">
-        <h1>{{TitleH1}}<small>{{TitleSmall}}</small></h1>
+<body>
+    <header class="page-header">
+        <h1>HTML5, CSS3, and JavaScript <small>Programming</small></h1>
     </header>
 
     <nav class="navbar navbar-default navbar-static-top">
@@ -48,27 +48,35 @@
         </div>
     </nav>
 
-    <main class="container" ng-controller="recipesCtrl">
-        <h2>{{Name}}</h2>
-        <ul>
-            <li ng-repeat="Recipe in Recipes">{{Recipe}}</li>
+    <main class="container">
+        <form method="get" action="">
+            <fieldset>
+                <legend>Some Controls</legend>
+                <label for="sometext">Write Some Text</label>
+                <input type="text" name="sometext" value="">
+                <label for="sometext">Enter your birthday</label>
+                <input type="date" name="birthday" value="" placeholder="mm/dd/yyyy">
 
-        </ul>
-        <form method="POST" action="">
-
+                <select name="state">
+                    <option>Select a State</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="GA">Georgia</option>
+                    <option value="VA">Virginia</option>
+                </select>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <label for="largeText">Enter a message</label>
+                <textarea name="largeText" rows="5" cols="150"></textarea>
+                <input type="checkbox" name="gender" value="M">Male
+                <input type="checkbox" name="gender" value="F">Female
+                <input type="checkbox" name="gender" value="O">Other
+            </fieldset>
+            <hr>
+            <button class="btn btn-primary" type="submit" value="Submit">Submit</button>
         </form>
 
-        <section ng-controller="recipesCtrl1">
-            <h1>{{recipe.name}}</h1>
-            <form>
-                <label for="name">Recipe Name</label>
-                <input type="text" name="name" ng-model="name">
-                <h4>{{description}}</h4>
-                <label for="input">Input Recipe</label>
-                <input type="text" name="input" ng-model="input">
-                <button ng-click="modify">Modify</button>
-            </form>
-        </section>
     </main>
 
     <footer class="container-fluid well">
@@ -86,8 +94,7 @@
 
     <script src="lib/jquery/dist/jquery.min.js" type="text/javascript"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="lib/angular/angular.min.js" type="text/javascript"></script>
-    <script src="js/angular1.js" type="text/javascript"></script>
+    <script src="js/template.js" type="text/javascript"></script>
 </body>
 
 </html>

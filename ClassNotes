@@ -90,6 +90,50 @@ M - Model
 V - View (partial view)
 V - View
 	M - Model
+
+
+
+FORMS-
+	has a Method and an Action to it
+	The two Methods are Get or Post
+	if you use GET it will send data as a Querry string
+	if you use a POST method it will send data as a request
+
+
+
+JQUERY
+	can parse multiple controls at the same time
+	 JQUERY('li.hot') - Get all LI's with the HOT class
+	 	$('li.hot') - "$" stands for JQUERY
+	
+	you can also manupulate with JQUERY
+	 $('li.hot').hide(); -- This will hide the LI's with hot
+
+	to make Variables you will also use the "$" in the variable name to indicate it is a JQUERY variable
+		var $titles = $('.title') -- Get all classes with TITLE in it and collect them to TITLES variable
+
+	Getting HTML content via JQUERY
+		.html()
+			$('ul#list); --- Will get the UL LIST HTML code
+
+	Getting Text content
+		.text()
+			$('li')
+
+	READY FUNCION
+		when it will be safe for you to manipulate the DOM
+		$(document).ready(funtion(){
+
+					--PUT JAVASCRIPT HERE--
+
+		});
+
+
+DATA BINDING
+	
+
+
+	
 		
 
 
